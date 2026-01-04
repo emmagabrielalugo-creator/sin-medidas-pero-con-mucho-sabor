@@ -177,3 +177,43 @@ h1, h2 {
     padding: 30px;
     border-radius: 15px;
 }
+.boton,
+.boton-pago {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+
+    .recetario {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recetario img {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        max-width: 100%;
+    }
+
+    .preview-imagenes img {
+        max-width: 100%;
+    }
+
+    .preview-container {
+        padding: 15px;
+    }
+
+}
+.portada {
+    width: 100%;
+    max-width: 320px;
+}
