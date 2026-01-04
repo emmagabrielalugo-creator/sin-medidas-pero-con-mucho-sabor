@@ -1,0 +1,179 @@
+:root {
+    --principal: #C28E8D;
+    --suave: #B7A7A9;
+    --oscuro: #2c2c2c;
+}
+
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* PÁGINA PRINCIPAL */
+.inicio {
+    background: linear-gradient(135deg, #B7A7A9, #C28E8D);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.contenedor h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contenedor p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* BOTÓN */
+.boton {
+    background-color: #C28E8D;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #C28E8D;
+}
+/* RECETARIO */
+.recetario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.recetario img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.info {
+    max-width: 400px;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+}
+
+.info p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* VISTA PREVIA */
+.preview-container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.preview-container h1 {
+    margin-bottom: 10px;
+}
+
+.preview-container p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* PDF */
+.pdf-preview {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+/* BLOQUE DE PAGO */
+.bloque-pago {
+    background: #B7A7A9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.boton-pago {
+    margin-top: 20px;
+    background-color: #C28E8D;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.boton-pago:hover {
+    background-color: #C28E8D;
+}
+.limite {
+    font-weight: bold;
+    color: #C28E8D;
+    margin-bottom: 20px;
+}
+.beneficios {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.beneficios li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+.preview-imagenes img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.beneficios li {
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.bloque-pago {
+    max-width: 600px;
+    margin: 0 auto 60px;
+    text-align: center;
+    background: #B7A7A9;
+    padding: 30px;
+    border-radius: 15px;
+}
